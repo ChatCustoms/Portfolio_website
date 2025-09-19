@@ -1,9 +1,13 @@
-import Projects from "./sections/Projects";
+import Projects from "../sections/projects/Projects";
 import "./App.css";
-import About from "./sections/About";
+import About from "../sections/about/About";
+import Header from "../sections/header/Header";
+import Contact from "../sections/contact/Contact";
 
 function App() {
   return (
+    <>
+    <Header />
     <main className="App">
       <h1>Stephano Chatham</h1>
       <h2>Full Stack Developer | Veteran | Additive manufacturing expert</h2>
@@ -13,7 +17,9 @@ function App() {
       <a href="#projects">View my projects</a>
       <Projects />
       <About />
+      <Contact />
     </main>
+    </>
   );
 }
 
