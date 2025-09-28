@@ -1,21 +1,22 @@
 // src/pages/Home.tsx
-// @ts-expect-error - importing JSX without types for now
-import Header from "../sections/header/Header.jsx";
+// Keep the hero in Header; switch to "highlight" components on Home
+// (We’ll add those in step 2.)
 // @ts-expect-error
-import Projects from "../sections/projects/Projects.jsx";
+import Header from "../sections/header/Header";
 // @ts-expect-error
-import About from "../sections/about/About.jsx";
+import FeaturedProjects from "../sections/projects/Projects";
 // @ts-expect-error
-import Contact from "../sections/contact/Contact.jsx";
+import AboutSnippet from "../sections/about/About";
+// @ts-expect-error
+import ContactCTA from "../sections/contact/Contact";
 
 export default function Home() {
   return (
-    <main style={{ padding: "1rem" }}>
+    <main>
       <Header />
-      <a href="/projects">View my projects</a>
-      <Projects />
-      <About />
-      <Contact />
+      <FeaturedProjects />
+      <AboutSnippet />
+      <ContactCTA />
     </main>
   );
 }
