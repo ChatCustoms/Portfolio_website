@@ -1,15 +1,25 @@
-import './header.css';
+import "./header.css";
 
-function Header() {
-  return <header className="header">
-  <div className="logo">Logo</div>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-  </header>;
+export default function Header() {
+  return (
+    <header className="hero">
+      <div className="hero-inner container">
+        <div className="hero-badge">Frontend Developer</div>
+        <h1 className="hero-title">
+          Hi, I’m Stephano. I build clean, fast UIs.
+        </h1>
+        <p className="hero-subtitle">
+          React + TypeScript • Vite • UI engineering with a maker’s mindset.
+        </p>
+        <div className="hero-actions">
+          <a className="button" href="/projects">
+            View Projects
+          </a>
+          <a className="button-ghost" href="/about">
+            About Me
+          </a>
+        </div>
+      </div>
+    </header>
+  );
 }
-export default Header;

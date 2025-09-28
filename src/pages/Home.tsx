@@ -1,22 +1,13 @@
 // src/pages/Home.tsx
-// Keep the hero in Header; switch to "highlight" components on Home
-// (We’ll add those in step 2.)
+// Only the hero header on the homepage
+// (You can add highlight components later if you want.)
 // @ts-expect-error
-import Header from "../sections/header/Header";
-// @ts-expect-error
-import FeaturedProjects from "../sections/projects/Projects";
-// @ts-expect-error
-import AboutSnippet from "../sections/about/About";
-// @ts-expect-error
-import ContactCTA from "../sections/contact/Contact";
+import Header from "../sections/header/Header.jsx";
 
 export default function Home() {
   return (
     <main>
       <Header />
-      <FeaturedProjects />
-      <AboutSnippet />
-      <ContactCTA />
     </main>
   );
 }
