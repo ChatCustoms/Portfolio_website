@@ -8,6 +8,7 @@
   background: linear-gradient(180deg, #0d1b69 0%, #0a0f2d 100%);
   color: #fff;
   display: flex;
+  min-height: 100%;          /* full viewport height */
   align-items: center;        /* vertically center content */
   justify-content: center;    /* horizontally center */
   padding: 0 16px;            /* side padding */
