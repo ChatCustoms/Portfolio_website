@@ -1,4 +1,5 @@
 import type { JSX } from "react";
+import { Link } from "react-router-dom";
 
 import "./header.css";
 
@@ -14,12 +15,12 @@ export default function Header(): JSX.Element {
           React + TypeScript • Vite • UI engineering with a maker’s mindset.
         </p>
         <div className="hero-actions">
-          <a className="button" href="/projects">
+          <Link className="button" to="/projects">
             View Projects
-          </a>
-          <a className="button" href="/about">
+          </Link>
+          <Link className="button" to="/about">
             About Me
-          </a>
+          </Link>
         </div>
       </div>
     </header>
