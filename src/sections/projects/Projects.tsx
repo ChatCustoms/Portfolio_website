@@ -1,4 +1,6 @@
-function Projects() {
+import type { JSX } from "react";
+
+export default function Projects(): JSX.Element {
   return (
     <section id="projects" className="projects">
       <h2>Projects</h2>
@@ -24,5 +26,3 @@ function Projects() {
     </section>
   );
 }
-
-export default Projects;

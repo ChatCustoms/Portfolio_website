@@ -1,4 +1,6 @@
-function About() {
+import type { JSX } from "react";
+
+export default function About(): JSX.Element {
   return (
     <section id="about" className="about">
       <h2>About Me</h2>
@@ -13,5 +15,3 @@ function About() {
     </section>
   );
 }
-
-export default About;

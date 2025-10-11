@@ -1,6 +1,5 @@
 // src/pages/About.tsx
-// @ts-expect-error
-import AboutSection from "../sections/about/About.jsx";
+import AboutSection from "../sections/about/About";
 
 export default function About() {
   return (

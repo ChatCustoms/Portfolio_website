@@ -1,6 +1,5 @@
 // src/pages/Contact.tsx
-// @ts-expect-error
-import ContactSection from "../sections/contact/Contact.jsx";
+import ContactSection from "../sections/contact/Contact";
 
 export default function Contact() {
   return (

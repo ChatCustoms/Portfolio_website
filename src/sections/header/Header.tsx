@@ -1,6 +1,8 @@
+import type { JSX } from "react";
+
 import "./header.css";
 
-export default function Header() {
+export default function Header(): JSX.Element {
   return (
     <header className="hero">
       <div className="hero-inner container">
