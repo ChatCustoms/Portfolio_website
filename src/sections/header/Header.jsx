@@ -15,7 +15,7 @@ export default function Header() {
           <a className="button" href="/projects">
             View Projects
           </a>
-          <a className="button-ghost" href="/about">
+          <a className="button" href="/about">
             About Me
           </a>
         </div>
