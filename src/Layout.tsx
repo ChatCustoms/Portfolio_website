@@ -5,7 +5,7 @@ export default function Layout() {
   return (
     <div>
       <header>
-        <nav style={{ display: "flex", gap: "1rem", padding: "1rem" }}>
+        <nav style={{ display: "flex", gap: "1rem", padding: "1rem", borderBottom: "1px solid #ccc", justifyContent: "center" }}>
           <Link to="/">Home</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/about">About</Link>
