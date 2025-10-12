@@ -13,6 +13,13 @@ export default function Contact() {
             email.
           </p>
           <a href="mailto:stephano.chatham@gmail.com">Email Me</a>
+          <a
+            href="www.linkedin.com/in/stephano-c"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
         </section>
       </div>
     </Page>

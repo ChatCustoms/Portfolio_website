@@ -15,11 +15,21 @@ export default function Page({ bg, overlay = "rgba(10,12,16,0.45)", children }: 
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        minHeight: "100dvh",
+        minHeight: "100%",
         width: "100%",
+        display: "flex",
+        flexDirection: "column",
+        flex: 1,
       }}
     >
-      <div style={{ maxWidth: 1200, margin: "0 auto", padding: "clamp(16px,3vw,48px)" }}>
+      <div
+        style={{
+          maxWidth: 1200,
+          margin: "0 auto",
+          padding: "clamp(16px,3vw,48px)",
+          width: "100%",
+        }}
+      >
         {children}
       </div>
     </div>

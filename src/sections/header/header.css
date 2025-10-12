@@ -5,18 +5,18 @@
 }
 
 .hero {
-  background: linear-gradient(180deg, #0d1b69 0%, #0a0f2d 100%);
+  background: transparent;
   color: #fff;
   display: flex;
-  min-height: 100%;          /* full viewport height */
-  align-items: center;        /* vertically center content */
-  justify-content: center;    /* horizontally center */
-  padding: 0 16px;            /* side padding */
+  min-height: 100%; /* full viewport height */
+  align-items: center; /* vertically center content */
+  justify-content: center; /* horizontally center */
+  padding: 0 16px; /* side padding */
 }
 
 .hero-inner {
   max-width: 900px;
-  text-align: center;         /* center the text */
+  text-align: center; /* center the text */
 }
 
 .hero-badge {
@@ -39,7 +39,7 @@
 
 .hero-subtitle {
   font-size: 20px;
-  opacity: .9;
+  opacity: 0.9;
   margin: 0 0 24px;
 }
 
