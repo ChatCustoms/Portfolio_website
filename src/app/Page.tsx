@@ -2,24 +2,32 @@
 import { ReactNode } from "react";
 
 type PageProps = {
-  bg: string;                 // imported image
-  overlay?: string;           // optional, default keeps text readable
+  bg?: string; // make optional
+  overlay?: string;
   children: ReactNode;
 };
 
-export default function Page({ bg, overlay = "rgba(10,12,16,0.45)", children }: PageProps) {
+export default function Page({
+  bg,
+  overlay = "rgba(10,12,16,0.45)",
+  children,
+}: PageProps) {
   return (
     <div
       style={{
-        backgroundImage: `linear-gradient(${overlay}, ${overlay}), url(${bg})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        minHeight: "100%",
-        width: "100%",
+        ...(bg
+          ? {
+              backgroundImage: `linear-gradient(${overlay}, ${overlay}), url(${bg})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }
+          : {}),
+        flex: 1,
         display: "flex",
         flexDirection: "column",
-        flex: 1,
+        minHeight: "100%",
+        width: "100%",
       }}
     >
       <div
