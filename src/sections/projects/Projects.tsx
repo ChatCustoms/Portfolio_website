@@ -1,5 +1,5 @@
 import Page from "../../app/Page";
-import background from "../../assets/Projects_background.png";
+import background from "../../../public/images/Projects_background.png";
 import "./projects.css";
 
 export default function Projects() {

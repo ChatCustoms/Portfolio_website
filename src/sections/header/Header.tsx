@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import "./header.css";
 import Page from "../../app/Page";
-import background from "../../assets/Home_background.png";
+import background from "../../../public/images/Home_background.png";
 
 export default function Header() {
   return (

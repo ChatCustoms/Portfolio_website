@@ -1,5 +1,5 @@
 import Page from "../../app/Page";
-import background from "../../assets/Contact_background.png";
+import background from "../../../public/images/Contact_background.png";
 import "./contact.css";
 
 export default function Contact() {

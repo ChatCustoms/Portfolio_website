@@ -1,5 +1,5 @@
 import Page from "../../app/Page";
-import background from "../../assets/About_background.png";
+import background from "../../../public/images/About_background.png";
 import "./about.css";
 
 export default function About() {
