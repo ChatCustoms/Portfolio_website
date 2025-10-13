@@ -4,7 +4,7 @@ import "./projects.css";
 
 export default function Projects() {
   return (
-    <Page bg={background} overlay="rgba(6,10,16,0.55)">
+    <Page bg={background} overlay="rgba(6,10,16,0.2)">
       <div className="page-content">
         <h2>Projects</h2>
         <p>

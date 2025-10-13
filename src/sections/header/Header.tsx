@@ -6,7 +6,7 @@ import background from "../../assets/Home_background.png";
 
 export default function Header() {
   return (
-    <Page bg={background} overlay="rgba(6,10,16,0.55)">
+    <Page bg={background} overlay="rgba(6,10,16,0.2)">
       <div className="page-content">
         <header className="hero">
           <div className="hero-inner container">

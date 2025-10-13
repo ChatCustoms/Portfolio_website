@@ -4,7 +4,7 @@ import "./about.css";
 
 export default function About() {
   return (
-    <Page bg={background} overlay="rgba(6,10,16,0.55)">
+    <Page bg={background} overlay="rgba(6,10,16,0.2)">
       <div className="page-content">
         <h2>About Me</h2>
         <p>
