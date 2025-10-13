@@ -2,11 +2,9 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #000000;
-
+  background-color: #000; /* fallback only */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -17,15 +15,17 @@ a {
   font-weight: 500;
   color: #ffffff;
   text-decoration: inherit;
+  margin-left: 12px;
 }
 a:hover {
   color: #babdf1;
 }
 
+/* Remove the blue strip around edges */
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: #041a87;
+  background: transparent; /* was #041a87 */
 }
 
 #root {
@@ -38,17 +38,53 @@ body {
   flex-direction: column;
   min-height: 100vh;
   width: 100%;
+
+  /* shared background behavior for all pages */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* optional: keep image fixed while scrolling */
+  background-attachment: fixed;
 }
 
+/* Header/Footer allow background through */
+header,
+footer {
+  background: transparent;
+}
+
+/* Main content grows */
 .app-main {
   flex: 1;
   display: flex;
 }
-
 .app-main > * {
   flex: 1;
   display: flex;
   flex-direction: column;
+}
+
+/* Per-page backgrounds */
+.page-home {
+  background-image: url("/images/Home_background.png");
+}
+.page-projects {
+  background-image: url("/images/Projects_background.png");
+}
+.page-about {
+  background-image: url("/images/About_background.png");
+}
+.page-contact {
+  background-image: url("/images/Contact_background.png");
+}
+
+/* Optional: darken for readability */
+.app-shell::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35); /* tweak or remove */
+  pointer-events: none;
 }
 
 h1 {
