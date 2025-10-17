@@ -8,7 +8,14 @@ export default function Layout() {
   return (
     <div className={`app-shell page-${page}`}>
       <header>
-        <nav style={{ display: "flex", gap: "1rem", padding: "1rem" }}>
+        <nav
+          style={{
+            display: "flex",
+            gap: "1rem",
+            padding: "1rem",
+            justifyContent: "center",
+          }}
+        >
           <Link to="/">Home</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/about">About</Link>

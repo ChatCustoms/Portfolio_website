@@ -1,11 +1,11 @@
 .contact {
-    padding: 20px;
+    padding: 2rem 1rem;
     background-color: transparent;
     color: white;
     text-align: center;
-    
+
 }
 
-.linkedIn {
-    margin-left: 12px;
+.linkedin {
+    margin-left: 0.75rem;
 }

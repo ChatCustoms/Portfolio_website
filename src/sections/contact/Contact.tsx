@@ -14,7 +14,7 @@ export default function Contact() {
           </p>
           <a className="email" href="mailto:stephano.chatham@gmail.com">Email Me</a>
           <a className="linkedin"
-            href="www.linkedin.com/in/stephano-c"
+            href="https://www.linkedin.com/in/stephano-c"
             target="_blank"
             rel="noopener noreferrer"
           >
