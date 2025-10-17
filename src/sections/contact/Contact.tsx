@@ -7,20 +7,63 @@ export default function Contact() {
     <Page bg={background} overlay="rgba(6,10,16,0.2)">
       <div className="page-content">
         <section id="contact" className="contact">
-          <h2>Contact Me</h2>
-          <p>
-            If you'd like to get in touch, please reach out via LinkedIn or
-            email.
-          </p>
-          <a className="email" href="mailto:stephano.chatham@gmail.com">Email Me</a>
-          <a className="linkedin"
-            href="https://www.linkedin.com/in/stephano-c"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
+          <div className="contact-header">
+            <h2>Let's Connect</h2>
+            <p className="contact-subtitle">
+              I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+            </p>
+            <div className="availability-badge">
+              <span className="status-dot"></span>
+              Available for opportunities
+            </div>
+          </div>
 
+          <div className="contact-cards">
+            <a
+              href="mailto:stephano.chatham@gmail.com"
+              className="contact-card"
+            >
+              <div className="contact-icon email-icon">
+                <span>✉️</span>
+              </div>
+              <h3>Email</h3>
+              <p className="contact-detail">stephano.chatham@gmail.com</p>
+              <span className="contact-cta">Send a message →</span>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/stephano-c"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-card"
+            >
+              <div className="contact-icon linkedin-icon">
+                <span>💼</span>
+              </div>
+              <h3>LinkedIn</h3>
+              <p className="contact-detail">Connect with me</p>
+              <span className="contact-cta">View profile →</span>
+            </a>
+
+            <a
+              href="https://github.com/stephanochatham"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-card"
+            >
+              <div className="contact-icon github-icon">
+                <span>💻</span>
+              </div>
+              <h3>GitHub</h3>
+              <p className="contact-detail">Check out my code</p>
+              <span className="contact-cta">View repos →</span>
+            </a>
+          </div>
+
+          <div className="contact-footer">
+            <p>📍 Based in [Your Location]</p>
+            <p>⏰ Typically respond within 24 hours</p>
+          </div>
         </section>
       </div>
     </Page>
