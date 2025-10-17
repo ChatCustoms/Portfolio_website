@@ -10,7 +10,8 @@ export default function Contact() {
           <div className="contact-header">
             <h2>Let's Connect</h2>
             <p className="contact-subtitle">
-              I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+              I'm always open to discussing new projects, creative ideas, or
+              opportunities to be part of your vision.
             </p>
             <div className="availability-badge">
               <span className="status-dot"></span>
@@ -61,7 +62,7 @@ export default function Contact() {
           </div>
 
           <div className="contact-footer">
-            <p>📍 Based in [Your Location]</p>
+            <p>📍 Based in Central Florida</p>
             <p>⏰ Typically respond within 24 hours</p>
           </div>
         </section>

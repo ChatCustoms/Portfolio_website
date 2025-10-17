@@ -15,7 +15,7 @@ export default function Header() {
               Hi, I’m Stephano. I build clean, user friendly websites.
             </h1>
             <p className="hero-subtitle">
-              React + TypeScript • Vite • UI engineering with a maker’s mindset.
+              React + TypeScript • Javascript • Vite • UI engineering with a maker’s mindset.
             </p>
             <div className="hero-actions">
               <Link className="button" to="/projects">

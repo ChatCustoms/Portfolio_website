@@ -11,22 +11,22 @@ export default function About() {
 
           <div className="about-intro">
             <p>
-              Hello! I'm Stephano Chatham, a passionate software developer with a
-              knack for creating innovative solutions. With a background in
+              Hello! I'm Stephano Chatham, a passionate software developer with
+              a knack for creating innovative solutions. With a background in
               full-stack development and a love for coding, I enjoy tackling
               complex problems and turning ideas into reality. When I'm not
-              coding, you can find me exploring new technologies, contributing to
-              open-source projects, or indulging in my love for 3D printing.
+              coding, you can find me exploring new technologies, contributing
+              to open-source projects, or indulging in my love for 3D printing.
             </p>
           </div>
 
           <div className="about-stats">
             <div className="stat-card">
-              <div className="stat-number">3+</div>
-              <div className="stat-label">Years Experience</div>
+              <div className="stat-number">1</div>
+              <div className="stat-label">Year Of Experience</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number">10+</div>
+              <div className="stat-number">6</div>
               <div className="stat-label">Projects Completed</div>
             </div>
             <div className="stat-card">
@@ -76,7 +76,10 @@ export default function About() {
           <div className="fun-facts">
             <h3>Fun Facts</h3>
             <ul>
-              <li>🎯 Passionate about turning complex problems into elegant solutions</li>
+              <li>
+                🎯 Passionate about turning complex problems into elegant
+                solutions
+              </li>
               <li>🚀 Always learning new technologies and frameworks</li>
               <li>🤝 Love collaborating on open-source projects</li>
               <li>🎨 Enjoy the intersection of design and functionality</li>
