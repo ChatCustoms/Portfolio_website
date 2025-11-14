@@ -26,7 +26,7 @@ export default function About() {
               <div className="stat-label">Year Of Experience</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number">6</div>
+              <div className="stat-number">5</div>
               <div className="stat-label">Projects Completed</div>
             </div>
             <div className="stat-card">
@@ -47,15 +47,39 @@ export default function About() {
                 <div className="skill-name">TypeScript</div>
               </div>
               <div className="skill-card">
+                <div className="skill-icon">▲</div>
+                <div className="skill-name">Next.js</div>
+              </div>
+              <div className="skill-card">
                 <div className="skill-icon">🟢</div>
                 <div className="skill-name">Node.js</div>
+              </div>
+              <div className="skill-card">
+                <div className="skill-icon">🚂</div>
+                <div className="skill-name">Express</div>
               </div>
               <div className="skill-card">
                 <div className="skill-icon">🗄️</div>
                 <div className="skill-name">MongoDB</div>
               </div>
               <div className="skill-card">
+                <div className="skill-icon">🐘</div>
+                <div className="skill-name">PostgreSQL</div>
+              </div>
+              <div className="skill-card">
+                <div className="skill-icon">🔷</div>
+                <div className="skill-name">Prisma</div>
+              </div>
+              <div className="skill-card">
+                <div className="skill-icon">🔺</div>
+                <div className="skill-name">GraphQL</div>
+              </div>
+              <div className="skill-card">
                 <div className="skill-icon">🎨</div>
+                <div className="skill-name">Tailwind CSS</div>
+              </div>
+              <div className="skill-card">
+                <div className="skill-icon">💅</div>
                 <div className="skill-name">CSS3</div>
               </div>
               <div className="skill-card">
