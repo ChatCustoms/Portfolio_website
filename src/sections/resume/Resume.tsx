@@ -21,10 +21,10 @@ export default function Resume() {
 
           {/* Download Buttons */}
           <div className="resume-downloads">
-            <a href="/Stephano_Chatham_Resume_2025.pdf" download className="download-btn">
+            <a href="/docs/Stephano_Chatham_Resume_2025.pdf" download className="download-btn">
               Download Resume (PDF)
             </a>
-            <a href="/Stephano_Chatham_Resume_2025.docx" download className="download-btn">
+            <a href="/docs/Stephano_Chatham_Resume_2025.docx" download className="download-btn">
               Download Resume (DOCX)
             </a>
           </div>
