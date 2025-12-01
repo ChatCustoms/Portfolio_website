@@ -38,7 +38,24 @@
 .resume-location {
     font-size: 1rem;
     opacity: 0.8;
-    font-style: italic;
+    margin: 0.5rem 0;
+}
+
+.resume-contact {
+    font-size: 0.95rem;
+    opacity: 0.8;
+    margin: 0.5rem 0 0 0;
+}
+
+.resume-contact a {
+    color: #babdf1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.resume-contact a:hover {
+    color: #fff;
+    text-decoration: underline;
 }
 
 /* Download Buttons */
@@ -217,6 +234,110 @@
     background: rgba(186, 189, 241, 0.15);
     border-color: rgba(186, 189, 241, 0.8);
     transform: translateY(-2px);
+}
+
+/* Job Entries */
+.job-entry {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.job-entry:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.job-header h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #babdf1;
+}
+
+.job-location {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin: 0.25rem 0;
+}
+
+.job-dates {
+    font-size: 0.95rem;
+    opacity: 0.7;
+    font-style: italic;
+    margin: 0.25rem 0 1rem 0;
+}
+
+.job-responsibilities {
+    margin: 1rem 0 0 1.5rem;
+    padding: 0;
+}
+
+.job-responsibilities li {
+    font-size: 1rem;
+    line-height: 1.8;
+    opacity: 0.9;
+    margin-bottom: 0.75rem;
+}
+
+/* Education Entries */
+.education-entry {
+    margin-bottom: 1.5rem;
+    padding: 1.25rem;
+    background: rgba(17, 20, 26, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.education-entry:last-child {
+    margin-bottom: 0;
+}
+
+.education-entry h3 {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    color: #babdf1;
+}
+
+.education-institution {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin: 0.25rem 0;
+}
+
+.education-year {
+    font-size: 0.95rem;
+    opacity: 0.7;
+    font-style: italic;
+    margin: 0.25rem 0 0 0;
+}
+
+/* Strengths List */
+.strengths-list {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+    list-style: disc;
+}
+
+.strengths-list li {
+    font-size: 1rem;
+    line-height: 1.8;
+    opacity: 0.9;
+    margin-bottom: 0.75rem;
+}
+
+/* Certifications List */
+.certifications-list {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+    list-style: disc;
+}
+
+.certifications-list li {
+    font-size: 1rem;
+    line-height: 1.8;
+    opacity: 0.9;
+    margin-bottom: 0.75rem;
 }
 
 /* Contact Info */
