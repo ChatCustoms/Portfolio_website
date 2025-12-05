@@ -10,12 +10,12 @@ export default function Header() {
       <div className="page-content">
         <header className="hero">
           <div className="hero-inner container">
-            <div className="hero-badge">Software Developer</div>
+            <div className="hero-badge">Full-Stack Developer & Technical Engineer</div>
             <h1 className="hero-title">
-              Hi, I’m Stephano. I build clean, user friendly websites.
+              Hi, I'm Stephano. I build precision-engineered web applications.
             </h1>
             <p className="hero-subtitle">
-              React + TypeScript • Javascript • Vite • UI engineering with a maker’s mindset.
+              Former FBI Physical Scientist • U.S. Marine Veteran • TS-Cleared Engineer transitioning into full-stack development with Next.js, TypeScript, React, and modern web technologies.
             </p>
             <div className="hero-actions">
               <Link className="button" to="/projects">

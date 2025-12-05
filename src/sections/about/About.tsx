@@ -11,27 +11,28 @@ export default function About() {
 
           <div className="about-intro">
             <p>
-              Hello! I'm Stephano Chatham, a passionate software developer with
-              a knack for creating innovative solutions. With a background in
-              full-stack development and a love for coding, I enjoy tackling
-              complex problems and turning ideas into reality. When I'm not
-              coding, you can find me exploring new technologies, contributing
-              to open-source projects, or indulging in my love for 3D printing.
+              Hello! I'm Stephano Chatham, a TS-Cleared Technical Engineer and former FBI Physical Scientist
+              transitioning into full-stack software development. With extensive experience in weapons systems
+              analysis, forensic engineering, additive manufacturing, and electromechanical troubleshooting,
+              I bring a unique blend of precision engineering and mission-focused execution to software development.
+              As a U.S. Marine veteran with a strong mechanical/electrical foundation, I excel at tackling complex
+              technical challenges and building innovative solutions that blend engineering expertise with modern
+              web technologies.
             </p>
           </div>
 
           <div className="about-stats">
             <div className="stat-card">
-              <div className="stat-number">1</div>
-              <div className="stat-label">Year Of Experience</div>
+              <div className="stat-number">7</div>
+              <div className="stat-label">Years FBI Laboratory</div>
             </div>
             <div className="stat-card">
               <div className="stat-number">5</div>
               <div className="stat-label">Projects Completed</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number">∞</div>
-              <div className="stat-label">Cups of Coffee</div>
+              <div className="stat-number">TS</div>
+              <div className="stat-label">Security Clearance</div>
             </div>
           </div>
 
@@ -94,19 +95,28 @@ export default function About() {
                 <div className="skill-icon">⚡</div>
                 <div className="skill-name">REST APIs</div>
               </div>
+              <div className="skill-card">
+                <div className="skill-icon">🔧</div>
+                <div className="skill-name">CAD (Fusion360)</div>
+              </div>
+              <div className="skill-card">
+                <div className="skill-icon">🎯</div>
+                <div className="skill-name">Ballistics Analysis</div>
+              </div>
             </div>
           </div>
 
           <div className="fun-facts">
-            <h3>Fun Facts</h3>
+            <h3>Background & Interests</h3>
             <ul>
               <li>
-                🎯 Passionate about turning complex problems into elegant
-                solutions
+                🎖️ U.S. Marine Corps veteran with honors - Expeditionary Airfield Systems Specialist
               </li>
-              <li>🚀 Always learning new technologies and frameworks</li>
-              <li>🤝 Love collaborating on open-source projects</li>
-              <li>🎨 Enjoy the intersection of design and functionality</li>
+              <li>🔬 Former FBI Physical Scientist specializing in firearms & ballistics forensics</li>
+              <li>🛠️ Master Gunsmith with expertise in weapons systems and precision measurement</li>
+              <li>🖨️ Additive manufacturing enthusiast - 3D printing custom engineering solutions</li>
+              <li>⚙️ Electrical Engineering Technology degree with Mechatronics concentration</li>
+              <li>💻 Transitioning technical expertise into full-stack software development</li>
             </ul>
           </div>
         </section>
