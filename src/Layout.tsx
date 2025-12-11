@@ -1,27 +1,37 @@
 // src/Layout.tsx
+import { useState } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
+import "./layout.css";
 
 export default function Layout() {
   const { pathname } = useLocation();
   const page = pathname === "/" ? "home" : pathname.replace("/", "");
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+  const closeMenu = () => setMenuOpen(false);
 
   return (
     <div className={`app-shell page-${page}`}>
       <header>
-        <nav
-          style={{
-            display: "flex",
-            gap: "1rem",
-            padding: "1rem",
-            justifyContent: "center",
-          }}
+        <button
+          className="hamburger-button"
+          onClick={toggleMenu}
+          aria-label="Toggle navigation menu"
+          aria-expanded={menuOpen}
         >
-          <Link to="/">Home</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/about">About</Link>
-          <Link to="/resume">Resume</Link>
-          <Link to="/contact">Contact</Link>
+          <span className="hamburger-icon">☰</span>
+        </button>
+
+        <nav className={`main-nav ${menuOpen ? "mobile-menu-open" : ""}`}>
+          <Link to="/" onClick={closeMenu}>Home</Link>
+          <Link to="/projects" onClick={closeMenu}>Projects</Link>
+          <Link to="/about" onClick={closeMenu}>About</Link>
+          <Link to="/resume" onClick={closeMenu}>Resume</Link>
+          <Link to="/contact" onClick={closeMenu}>Contact</Link>
         </nav>
+
+        {menuOpen && <div className="menu-overlay" onClick={closeMenu}></div>}
       </header>
 
       <main className="app-main">

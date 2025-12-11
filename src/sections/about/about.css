@@ -152,23 +152,144 @@
 }
 
 @media (max-width: 768px) {
+    .about {
+        padding: 1.5rem 0.75rem;
+        gap: 2rem;
+        max-width: 100%;
+    }
+
     .about h2 {
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
 
     .about h3 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+    }
+
+    .about-intro {
+        max-width: 100%;
+        padding: 0 0.5rem;
+    }
+
+    .about-intro p {
+        font-size: 1rem;
+        line-height: 1.7;
     }
 
     .about-stats {
         grid-template-columns: 1fr;
+        gap: 1rem;
+        margin: 1.5rem 0;
     }
 
-    .skills-grid {
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    .stat-card {
+        padding: 1.25rem;
     }
 
     .stat-number {
         font-size: 2rem;
+    }
+
+    .stat-label {
+        font-size: 0.8rem;
+    }
+
+    .skills-section {
+        margin: 1.5rem 0;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+        gap: 0.75rem;
+    }
+
+    .skill-card {
+        padding: 1rem 0.75rem;
+    }
+
+    .skill-icon {
+        font-size: 1.75rem;
+    }
+
+    .skill-name {
+        font-size: 0.8rem;
+    }
+
+    .fun-facts {
+        padding: 1.5rem;
+    }
+
+    .fun-facts li {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        padding: 1rem 0.5rem;
+        gap: 1.5rem;
+    }
+
+    .about h2 {
+        font-size: 1.5rem;
+    }
+
+    .about h3 {
+        font-size: 1.1rem;
+    }
+
+    .about-intro {
+        padding: 0 0.25rem;
+    }
+
+    .about-intro p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    .about-stats {
+        margin: 1rem 0;
+    }
+
+    .stat-card {
+        padding: 1rem;
+    }
+
+    .stat-number {
+        font-size: 1.75rem;
+    }
+
+    .stat-label {
+        font-size: 0.75rem;
+    }
+
+    .skills-section {
+        margin: 1rem 0;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+        gap: 0.5rem;
+    }
+
+    .skill-card {
+        padding: 0.75rem 0.5rem;
+    }
+
+    .skill-icon {
+        font-size: 1.5rem;
+    }
+
+    .skill-name {
+        font-size: 0.75rem;
+    }
+
+    .fun-facts {
+        padding: 1.25rem;
+    }
+
+    .fun-facts li {
+        font-size: 0.9rem;
+        padding-left: 0.25rem;
     }
 }
